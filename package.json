@@ -5,6 +5,7 @@
     "serverless-offline": "^3.20.2"
   },
   "scripts": {
+    "local": "sls invoke local -f $1",
     "dev": "sls offline start --port 4500",
     "test": "jest"
   },
